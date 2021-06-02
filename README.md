@@ -1,6 +1,6 @@
 # eval-a2-tech4-2021
 
-## changement que j'ai effectuer
+## Start le projet
 Start le projet : necessite composer et un serveur (XAMPP par exemple)
 Mettre le projet dans le serveur pour heberger
 ensuite ce mettre dans le fichier du projet (Florian-Projet) et faire la commande 'composer install'
