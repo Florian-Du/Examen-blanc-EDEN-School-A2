@@ -1,0 +1,339 @@
+
+
+body {
+    margin: 0;
+}
+#logo {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#banniere {
+    background-image: url('../Images/banniere.jpg');
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: #f7f7f7;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h2 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    color: #2481CE;
+}
+#bloc-filtre {
+    display: none;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #F7F7F7;
+    padding: 40px;
+    margin-bottom: 50px;
+
+}
+#bloc-filtre-retracter {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #F7F7F7;
+    padding: 40px;
+    margin-bottom: 50px;
+
+}
+#titre_bloc_filtre {
+    display: inline-block;
+    width: 50%;
+}
+#bloc_boutton_filtre {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+i {
+    color: #a3acb4;
+    font-size: 40px;
+    cursor: pointer;
+}
+#bookbackground {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bookfenetre {
+    position: fixed;
+    width: 90%;
+    top: 100px;
+    height: 80%;
+    margin-left: 5%;
+    background-color: white;
+
+}
+.boutonfermerbook {
+    width: 95%;
+    text-align: right;
+    cursor: pointer;
+}
+.div2book {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49.5%;
+    padding: 50px;
+}
+.img2book {
+    width: 20%;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: middle;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#groupebutton {
+    width: 100%;
+    text-align: right;
+}
+#buttondelete {
+    display: none;
+    border: none;
+    background-color: transparent;
+    color: #636470;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.buttonFiltre {
+    border: none;
+    background-color: #2196F3;
+    color: #F7F7F7;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.labels {
+    display: block;
+    margin-top: 45px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    color: #636470;
+}
+#labels2 {
+    margin-top: 60px;
+}
+#espace3 {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkbox {
+    width: 32%;
+}
+
+.checkbox>input {
+    cursor: pointer;
+}
+#labels {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    color: #636470; 
+}
+select {
+    margin-top: 35px;
+    display: block;
+    background-color: transparent;
+    border: 1px #808291 solid;
+    padding: 10px;
+    width: 200px;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    color: #808291;
+    font-size: 14px;
+    cursor: pointer;
+}
+option {
+    color: #2196F3;
+    border: transparent;
+}
+label {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    color: #808291;
+}
+table {
+    width: 80%;
+    margin-left: 10%;
+}
+#BlocLivres {
+    width: 80%;
+    margin-left: 10%;
+}
+table {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.tailleTableau {
+    width: 19%;
+}
+#tailleTableau {
+    width: 5%;
+}
+#tailleTableaubig {
+    width: 29%;
+}
+#tailleTableaulittle {
+    width: 9%;
+}
+.titreLivre {
+    padding-right: 50px;
+    padding: 25px 50px 25px 0;
+    cursor: pointer;
+}
+.titreLivre:hover {
+    font-weight: bold;
+}
+.traitReserver {
+    width: 3px;
+    height: 100px;
+    background-color: #D4D4D4;
+    display: block;
+}
+.traitDisponible {
+    width: 3px;
+    height: 100px;
+    background-color: #2196F3;
+    display: block;
+}
+.littlepaddingbottom {
+    padding-bottom: 15px;
+}
+th {
+    color:#2481CE;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+td {
+    color:#808291;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.Reserver {
+    background-color: #D4D4D4;
+    border: transparent;
+    color: #F7F7F7;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    margin-left: 0;
+    cursor: pointer;
+}
+.Disponible {
+    background-color: #2196F3;
+    border: transparent;
+    color: #F7F7F7;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    margin-left: 0;
+    cursor: pointer;
+}
+footer {
+    background-color: #2481CE;
+}
+#textfooter {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+#BlocLivresPhone {
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    #bloc-filtre {
+        display: none;
+    }
+    #bloc-filtre-retracter {
+        display: none;
+    }
+    #logo {
+        margin-top: 25px;
+        width: 25%;
+        margin-left: 37.5%;
+    }
+    #BlocLivresPhone {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #BlocLivres {
+        display: none;
+    }
+    .rows {
+        margin-top: 25px;
+    }
+    h3 {
+        color:#2481CE;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .contenue {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+        width: 85%;
+    }
+    .traitDisponible {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .traitReserver {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .Titre {
+        color: #636470;
+        font-family: 'Montserrat';
+        font-size: 14px;
+    }
+    .Auteur {
+        color: #808291;
+        font-family: 'Montserrat';
+        font-size: 14px;
+    }
+    .Categorie {
+        color: #808291;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        
+    }
+    .Reserver {
+        margin-left: 25px;
+    }
+    .Disponible {
+        margin-left: 25px;
+    }
+  }

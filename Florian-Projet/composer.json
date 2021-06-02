@@ -1,0 +1,17 @@
+{
+    "name": "fdupin/4-todo-objet-mvc",
+    "authors": [
+        {
+            "name": "Florian-Du",
+            "email": "floflo.dupin@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Livres\\": "src/"
+        }
+    }
+}
