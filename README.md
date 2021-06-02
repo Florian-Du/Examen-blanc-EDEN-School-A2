@@ -1,16 +1,28 @@
-# eval_a2_tech5_2021
+# eval-a2-tech4-2021
 
-## Pour demarrer le projet.
+## changement que j'ai effectuer
+Start le projet : necessite composer et un serveur (XAMPP par exemple)
+Mettre le projet dans le serveur pour heberger
+ensuite ce mettre dans le fichier du projet (Florian-Projet) et faire la commande 'composer install'
+ensuite ce mettre dans le fichier public et effectuer la commande 'php -S localhost:8000'
+Maintenant vous pouvez lancer google et taper dans la barre de recherche 'localhost:8000' pour acceder a mon projet :)
 
-Start le projet : necessite composer et un serveur (XAMPP par exemple) Mettre le projet dans le serveur pour heberger ensuite ce mettre dans le fichier du projet (Florian-Projet) et faire la commande 'composer install' ensuite ce mettre dans le fichier public et effectuer la commande 'php -S localhost:8000' Maintenant vous pouvez lancer google et taper dans la barre de recherche 'localhost:8000' pour acceder a mon projet :)
+## changement que j'ai effectuer
 
-## Ce que j'ai fait.
+J'ai changer le nombre maximal de caractere dans le titre car il y avait un libre ou le titre etait plus long que 50 alors je l'ai mit a 70
 
-J'ai resolue mes deux bug qui etait "resoudre l'erreur sql quand on clique sur filter" et "Faire fonctuonner le filtre par categorie".
+## Ce que j'ai fait
 
-Pour le premier l'erreur etait que je n'avais pas gere la value de l'element auteur quand il etait sur tous.
-Pour la deuxieme erreur j'ai remanier la requete sql pour acceder au filtre.
+Les filtres des auteurs et des categorie s'affichent dynamiquement 
+les livres s'affichent aussi dynamiquement 
+les filtre fonctionnent mais que avec les auteurs et le nomre de page je n'ai pas eu le mteps de faire pour les categorie
+J'ai adapter mon html, css et js en mvc
 
-Ensuite j'ai fait le bloc filtre qui se retracte et qui se deplie avec du JS et l'animation en JS.
-Et pour finir j'ai fait la requete au serveur de l'api Books de google et j'ai creer une pop up dynamique pour afficher le detail du livre.
-Pour que la pop up s'ouvre il faut cliquer sur le titre du livre.
+## Ce que j'aurais voulue faire 
+
+Faire une recette final pour verifier que tous fonctionne
+Terminer les filtres pour que les trois fonctionnent mais il n'y a que les filtres auteurs et le nombre de pages qui fonctionnent pour l'instant7
+Traduire la date des date de disponibilite
+et afficher le vrai nombre de livre sur tous les livres entre paranthese
+Utiliser le validator mais malheureusement je n'ai pas eu le temps de le faire
+
